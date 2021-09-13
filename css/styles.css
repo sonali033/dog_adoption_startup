@@ -1,0 +1,162 @@
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #BFA2DB;
+  color: #444941;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #BFA2DB;
+}
+
+#press {
+  text-align: center;
+  background-color: #B4AEE8;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#cta {
+  background-color: #BFA2DB;
+  padding: 3% 15%;
+  text-align: center;
+}
+
+#footer {
+  background-color: #5C527F;
+  text-align: center;
+  padding: 3% 15%
+}
+
+.container-fluid {
+  padding: 5% 15% 7%;
+}
+
+.navbar-brand {
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.navbar {
+  padding-bottom: : 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+.title-image {
+  position: absolute;
+  right: 30%;
+  width: 60%;
+  transform: rotate(25deg)
+}
+
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+
+
+.icon {
+  color: #5C527F;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #1E3163;
+}
+
+
+
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+
+
+.final {
+  font-size: 2.5rem;
+  font-family: 'Indie Flower', cursive;
+  padding-bottom: 3%;
+}
+
+
+
+.social-icon {
+  margin: 10px 10px;
+  color: #fff;
+}
